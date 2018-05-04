@@ -3,25 +3,25 @@ layout: moneropedia
 entry: "Base32 address"
 tags: ["kovri"]
 terms: ["Base32-address", "Base32-addresses"]
-summary: "Base32 encoded hash of a Base64 address"
+summary: "Hash codificato in Base32 di un indirizzo Base64"
 ---
 
-### The Basics
+### Le basi
 
-A Base32 address is a shortened, encoded version of an @I2P address. The Base32 address is the first part in a `.b32.i2p` hostname.
+Un indirizzo Base32 è una versione accorciata e codificata di un indirizzo @I2P. L'indirizzo Base32 è la prima parte in un hostname `.b32.i2p`.
 
-Example:
+Esempio:
 
 `i35yftyyb22xhcvghmev46t5knefur5v66qzekkajatwfwhyklvq.b32.i2p`
 
-where
+dove
 
-`i35yftyyb22xhcvghmev46t5knefur5v66qzekkajatwfwhyklvq` is the Base32 address.
+`i35yftyyb22xhcvghmev46t5knefur5v66qzekkajatwfwhyklvq` è l'indirizzo Base32.
 
-### In-depth Information
+### Informazioni di dettaglio
 
-Ultimately, a Base32 address is a 52 character [Base32 encoded representation](https://en.wikipedia.org/wiki/Base32) of the full SHA-256 hash of an @I2P @base64-address.
+In sostanza un indirizzo Base32 è una rappresentazione di 52 caratteri [codificata Base32](https://en.wikipedia.org/wiki/Base32) dell'hash completo SHA-256 di un [indirizzo Base64](@base64-address) @I2P.
 
-### Notes
+### Note
 
-**Note: `.b32` is not a sub-domain of `.i2p`**
+**Nota: `.b32` non è un sottodominio di `.i2p`**
